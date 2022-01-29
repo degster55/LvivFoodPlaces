@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		24E45267C9BF6B7AAD23ABFD /* Pods_Lviv_Food_Places.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BC460CDD7DA1E8AF0ADF9F /* Pods_Lviv_Food_Places.framework */; };
+		9D2134F727A5FFD2000DA1CE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2134F627A5FFD2000DA1CE /* MapViewController.swift */; };
 		9D2B455B27A2B2CC00C97D50 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B455A27A2B2CC00C97D50 /* RatingControl.swift */; };
 		9D63F07C27A189B800563551 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63F07B27A189B800563551 /* MainViewController.swift */; };
 		9D63F07E27A18A1F00563551 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63F07D27A18A1F00563551 /* StorageManager.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		1FB28005C12B6D22EB55B73D /* Pods-Lviv Food Places.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lviv Food Places.release.xcconfig"; path = "Target Support Files/Pods-Lviv Food Places/Pods-Lviv Food Places.release.xcconfig"; sourceTree = "<group>"; };
 		57BC460CDD7DA1E8AF0ADF9F /* Pods_Lviv_Food_Places.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lviv_Food_Places.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2134F627A5FFD2000DA1CE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9D2B455A27A2B2CC00C97D50 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		9D63F07B27A189B800563551 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9D63F07D27A18A1F00563551 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				9D63F07B27A189B800563551 /* MainViewController.swift */,
 				9D63F08327A18B4300563551 /* NewPlaceViewController.swift */,
 				9D63F08127A18B0000563551 /* CustomTableViewCell.swift */,
+				9D2134F627A5FFD2000DA1CE /* MapViewController.swift */,
 				9D63F07D27A18A1F00563551 /* StorageManager.swift */,
 				9D63F07F27A18A5800563551 /* PlaceModel.swift */,
 				9D2B455A27A2B2CC00C97D50 /* RatingControl.swift */,
@@ -225,6 +228,7 @@
 				9D63F07C27A189B800563551 /* MainViewController.swift in Sources */,
 				9DCFF3DE27A1874B00BF4500 /* AppDelegate.swift in Sources */,
 				9D63F08027A18A5800563551 /* PlaceModel.swift in Sources */,
+				9D2134F727A5FFD2000DA1CE /* MapViewController.swift in Sources */,
 				9D2B455B27A2B2CC00C97D50 /* RatingControl.swift in Sources */,
 				9D63F08427A18B4300563551 /* NewPlaceViewController.swift in Sources */,
 				9DCFF3E027A1874B00BF4500 /* SceneDelegate.swift in Sources */,
