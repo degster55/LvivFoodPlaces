@@ -1,0 +1,6 @@
+framework module Pods_Lviv_Food_Places {
+  umbrella header "Pods-Lviv Food Places-umbrella.h"
+
+  export *
+  module * { export * }
+}
