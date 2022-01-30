@@ -10,6 +10,7 @@
 		24E45267C9BF6B7AAD23ABFD /* Pods_Lviv_Food_Places.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BC460CDD7DA1E8AF0ADF9F /* Pods_Lviv_Food_Places.framework */; };
 		9D2134F727A5FFD2000DA1CE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2134F627A5FFD2000DA1CE /* MapViewController.swift */; };
 		9D2B455B27A2B2CC00C97D50 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B455A27A2B2CC00C97D50 /* RatingControl.swift */; };
+		9D40AF2F27A6EB1F00C26400 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40AF2E27A6EB1F00C26400 /* MapManager.swift */; };
 		9D63F07C27A189B800563551 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63F07B27A189B800563551 /* MainViewController.swift */; };
 		9D63F07E27A18A1F00563551 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63F07D27A18A1F00563551 /* StorageManager.swift */; };
 		9D63F08027A18A5800563551 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63F07F27A18A5800563551 /* PlaceModel.swift */; };
@@ -27,6 +28,7 @@
 		57BC460CDD7DA1E8AF0ADF9F /* Pods_Lviv_Food_Places.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lviv_Food_Places.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2134F627A5FFD2000DA1CE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9D2B455A27A2B2CC00C97D50 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		9D40AF2E27A6EB1F00C26400 /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
 		9D63F07B27A189B800563551 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9D63F07D27A18A1F00563551 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		9D63F07F27A18A5800563551 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
@@ -54,6 +56,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D40AF3027A6FC9000C26400 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D63F07B27A189B800563551 /* MainViewController.swift */,
+				9D63F08327A18B4300563551 /* NewPlaceViewController.swift */,
+				9D2134F627A5FFD2000DA1CE /* MapViewController.swift */,
+				9D63F08127A18B0000563551 /* CustomTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9D40AF3127A6FCE700C26400 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D63F07F27A18A5800563551 /* PlaceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D40AF3227A6FD1200C26400 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9D40AF2E27A6EB1F00C26400 /* MapManager.swift */,
+				9D63F07D27A18A1F00563551 /* StorageManager.swift */,
+				9D2B455A27A2B2CC00C97D50 /* RatingControl.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9D40AF3327A6FD5400C26400 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DCFF3E627A1874C00BF4500 /* Assets.xcassets */,
+				9DCFF3DD27A1874B00BF4500 /* AppDelegate.swift */,
+				9DCFF3DF27A1874B00BF4500 /* SceneDelegate.swift */,
+				9DCFF3EB27A1874C00BF4500 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		9D40AF3427A6FD8C00C26400 /* iBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				9DCFF3E327A1874B00BF4500 /* Main.storyboard */,
+				9DCFF3E827A1874C00BF4500 /* LaunchScreen.storyboard */,
+			);
+			path = iBuilder;
+			sourceTree = "<group>";
+		};
 		9DCFF3D127A1874B00BF4500 = {
 			isa = PBXGroup;
 			children = (
@@ -75,19 +126,11 @@
 		9DCFF3DC27A1874B00BF4500 /* Lviv Food Places */ = {
 			isa = PBXGroup;
 			children = (
-				9DCFF3DD27A1874B00BF4500 /* AppDelegate.swift */,
-				9DCFF3DF27A1874B00BF4500 /* SceneDelegate.swift */,
-				9D63F07B27A189B800563551 /* MainViewController.swift */,
-				9D63F08327A18B4300563551 /* NewPlaceViewController.swift */,
-				9D63F08127A18B0000563551 /* CustomTableViewCell.swift */,
-				9D2134F627A5FFD2000DA1CE /* MapViewController.swift */,
-				9D63F07D27A18A1F00563551 /* StorageManager.swift */,
-				9D63F07F27A18A5800563551 /* PlaceModel.swift */,
-				9D2B455A27A2B2CC00C97D50 /* RatingControl.swift */,
-				9DCFF3E327A1874B00BF4500 /* Main.storyboard */,
-				9DCFF3E627A1874C00BF4500 /* Assets.xcassets */,
-				9DCFF3E827A1874C00BF4500 /* LaunchScreen.storyboard */,
-				9DCFF3EB27A1874C00BF4500 /* Info.plist */,
+				9D40AF3027A6FC9000C26400 /* ViewControllers */,
+				9D40AF3227A6FD1200C26400 /* Helpers */,
+				9D40AF3127A6FCE700C26400 /* Models */,
+				9D40AF3327A6FD5400C26400 /* Support Files */,
+				9D40AF3427A6FD8C00C26400 /* iBuilder */,
 			);
 			path = "Lviv Food Places";
 			sourceTree = "<group>";
@@ -230,6 +273,7 @@
 				9D63F08027A18A5800563551 /* PlaceModel.swift in Sources */,
 				9D2134F727A5FFD2000DA1CE /* MapViewController.swift in Sources */,
 				9D2B455B27A2B2CC00C97D50 /* RatingControl.swift in Sources */,
+				9D40AF2F27A6EB1F00C26400 /* MapManager.swift in Sources */,
 				9D63F08427A18B4300563551 /* NewPlaceViewController.swift in Sources */,
 				9DCFF3E027A1874B00BF4500 /* SceneDelegate.swift in Sources */,
 				9D63F07E27A18A1F00563551 /* StorageManager.swift in Sources */,
@@ -384,7 +428,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FXTZ838HT6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lviv Food Places/Info.plist";
+				INFOPLIST_FILE = "Lviv Food Places/Support Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -414,7 +458,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FXTZ838HT6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lviv Food Places/Info.plist";
+				INFOPLIST_FILE = "Lviv Food Places/Support Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
